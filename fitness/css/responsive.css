@@ -1,0 +1,191 @@
+/* ============================
+Medium Layout: 1280px
+============================ */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.hero-title { width: 70%; }
+	.booking-details { margin-top: 55px; }
+	.booking-details form input[type="submit"]{ margin-top: 0; width: 30%; }
+	.first-welcome-area{ padding-top: 240px; }
+	.welcome-container { width: 85%; }
+	.welcome-image img{ height: 600px; }
+	.contact-area{ max-height: 365px; }
+	.trainer-image img{ height: 380px; }
+	.footer-title { margin-bottom: 25px; }
+	.footer-content { margin-bottom: 30px; }
+	.footer-social { margin-bottom: 20px; }
+
+}
+/* ============================
+Tablet Layout: 768px
+============================ */
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+	.main-menu ul li { display: block; margin-bottom: 6px; }
+	.register-area ul li { display: block; text-align: center; margin-bottom: 4px; }
+	.hero-title { width: 92%; }
+	.booking-area{margin-top: -150px;}
+	.booking-content { padding-top: 15px; }
+	.booking-details { margin-top: 20px; }
+	.booking-details form input[type="submit"]{ margin-top: 0; width: 40%; }
+	.first-welcome-area{ padding-top: 90px; }
+	.welcome-image img{ height: 600px; }
+	.welcome-container { width: 90%; padding-top: 175px; }
+	.welcome-content { margin-bottom: 20px; }
+	.trainer-image img { height: 265px; }
+	.free-title h2 { font-size: 40px; }
+	.free-btn { margin-bottom: 107px; }
+	.footer-title { margin-bottom: 20px; }
+	.footer-content {margin-bottom: 30px; }
+	.footer-social { margin-bottom: 25px; }
+	.footer-social ul li a i{ padding: 0 4px; }
+	.footer-form form input[type="submit"]{ width: 46%; }
+	.blog-content { margin-top: -5px; }
+	.blog-content p{ font-size: 13px; }
+	.single-insta img { height: 70px; }
+	.plan-area .plan-title h2{ font-size: 38px; }
+	.plan-area .body-img img{ top: -25px; }
+	.plan-package .monthly-package .package-buy,
+	.plan-package .halfyear-package .package-buy,
+	.plan-package .yearly-package .package-buy{ padding-top: 265px; padding-right: 5px !important; }
+	.plan-package .monthly-package .package-buy a,
+	.plan-package .halfyear-package .package-buy a, 
+	.plan-package .yearly-package .package-buy a{ font-size: 14px; width: 40%; }
+	.institute-title h2{ padding: 0; }
+	.seo-details .seo-title h2{ padding: 0; }
+	.about-trainer .title h2{ padding: 0; }
+	.manager-details .manager-title h2{ font-size: 33px; }
+	.manager-content p{ margin-bottom: 15px; }
+	.manager-contact .manager-phone{ margin-top: 14px; }
+	.manager-details .manager-social{ margin-top: 0; }
+	.manager-image img{ height: 350px; width: 100%; }
+	.single-team .team-img img{ height: 275px; }
+	.contact-form-map .contact-form input[type="submit"]{ width: 35%; margin-right: 4px; }
+
+}
+/* ============================
+ Molibe Layout: 320px
+============================ */
+@media only screen and (max-width: 767.98px){
+	.main-logo { display: block; margin-left: 3%; }
+	.main-menu { top: 20px; }
+	.menu-area { width: 55%; }
+	.main-menu ul li { display: block; margin-bottom: 6px; }
+	.register-area { width: 45%; }
+	.register-area ul li {  display: block; text-align: center; }
+	.hero-title { width: 100%; }
+	.hero-title h1{ font-size: 50px; }
+	.booking-area {
+	    width: 100%;
+	    overflow: hidden;
+	    position: absolute;
+	    top: 100%;
+	    left: 0;
+	    background: #fff;
+	    margin-top: 0;
+	}
+	.booking-content{ padding-top: 10px; }
+	.booking-title h2{ font-size: 33px; }
+	.booking-details { margin-top: 15px; }
+	.booking-details form input[type="submit"]{ width: 45%; margin-top: 0; }
+	.welcome-details { width: 100%; float: none; }
+	.welcome-container { width: 100%; padding-top: 80px; }
+	.welcome-image { width: 100%; padding-top: 80px; }
+	.row-resize{ margin: auto; }
+	.personal-trainer-content h3{ font-size: 30px; }
+	.trainer-image img{ height: auto; }
+	.personal-trainer-content h2{ font-size: 50px; }
+	.free-area{ width: 100%; float: none; }
+	.call-area{ width: 100%; }
+	.footer-details { margin-bottom: 35px; }
+	.blog{margin-bottom: 20px; }
+	.single-insta{ width: 30%; }
+	.single-insta img{ height: 125px; }
+	.insta-title{ text-align: center; }
+	.insta-images{ width: 100%; margin-left: 5%; }
+	.insta-btn{ text-align: center; }
+	.scroll-up{ right: 25px; }
+	.plan-area .body-img img{ top: -25px; }
+	.plan-package .monthly-package,
+	.plan-package .halfyear-package,
+	.plan-package .yearly-package{ width: 100%; float: none; margin: 0 0 25px 0; }
+	.plan-package .monthly-package .package-buy a,
+	.plan-package .halfyear-package .package-buy a,
+	.plan-package .yearly-package .package-buy a{ font-size: 13px; }
+	.institute-image{ margin-top: 40px; }
+	.institute-image img{ height: 300px; }
+	.aboutTrainer-image{ margin-top: 40px; }
+	.seo-area .seo-image img{ height: 300px; }
+	.about-trainer .aboutTrainer-image img{ height: 300px; }
+	.institute-title h2{ font-size: 33px; }
+	.seo-details .seo-title h2{ font-size: 33px; }
+	.about-trainer .title h2{ font-size: 33px; }
+	.counter-area .counter-title h2{ font-size: 33px; }
+	.first-counter,
+	.second-counter,
+	.third-counter{ margin-bottom: 30px; }
+	.counter-details .first-counter span,
+	.counter-details .second-counter span,
+	.counter-details .third-counter span{ left: 46%; }
+	.manager-details .manager-title h2{ font-size: 33px; }
+	.manager-content p{ margin-bottom: 20px; }
+	.manager-contact .manager-phone{ margin-top: 20px; }
+	.manager-image.col-md-6{ margin-top: 40px; }
+	.manager-image img{ height: 300px; width: 95%; }
+	.team-area .team-title h2{ font-size: 33px; }
+	.getsTeam-members .single-team{ margin-top: 35px; }
+	.getsTeam-members .single-team:first-of-type{ margin-top: 0; }
+	.ladiesTeam-members .single-team{ margin-top: 35px; }
+	.ladiesTeam-members .single-team:first-child{ margin-top: 0; }
+	.contact-form-map .contact-form input{ width: 100%; margin-bottom: 22px; }
+	.contact-form-map .contact-form textarea{ width: 100%; }
+	.contact-form-map .contact-form input[type="submit"]{ width: 70%; margin-right: 3px; }
+	.contact-location .contact-icon{ text-align: center; }
+	.contact-map .cont-map iframe{ height: 220px; }
+	.review-slider .owl-dots{ top: 84%; }
+	.singlepage-blog .post-thumbnail img{height: 300px !important;}
+	section.pages .page-thumb img{height: 300px !important; width: 100%;}
+	.contact-form-map .contact-form .first-input,
+	.contact-form-map .contact-form .second-input{ margin-bottom: -8px !important; }
+	.contact-map { padding-left: 0px;}
+	#contact-formandmap{padding-right: 50px !important; padding-left: 50px !important;}
+	.footer-area .blog .single-blog .blog-img img{height: auto;}
+	.blog-area .single-blog .blogpage-img img{height: auto; }
+	.blog-area .single-blog .blogpage-img { padding: 20px 15px 0 15px; }
+
+
+}
+/* ============================
+Wide Mobile Layout: 480px
+============================ */
+@media only screen and (min-width: 480px) and (max-width: 767.98px){
+	.plan-package .monthly-package .package-buy a,
+	.plan-package .halfyear-package .package-buy a,
+	.plan-package .yearly-package .package-buy a{ width: 22%; font-size: 16px; }
+	.manager-image img{ height: 400px; }
+	.institute-image img{ height: 400px; }
+	.seo-area .seo-image img{ height: 400px; }
+	.about-trainer .aboutTrainer-image img{ height: 400px; }
+	.review-slider .owl-dots{ top: 80%; }
+	.contact-form-map .contact-form input[type="submit"]{ width: 50%; }
+	.singlepage-blog .post-thumbnail img{height: 400px !important;}
+	#contact-formandmap{padding-right: 105px; padding-left: 105px;}
+
+	
+}
+
+
+/*=============================
+ Mobile menu responsive 
+ ============================*/
+
+@media only screen and (max-width: 992px){
+	.menu-area .bar{
+		display: block;
+	}
+	.main-menu{
+		text-align: center;
+		top: 65% !important;
+		left: 50%;
+		display: none ;
+	}
+
+}
