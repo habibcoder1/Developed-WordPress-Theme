@@ -1,0 +1,153 @@
+/*=================================
+	Medium Layout:  1280px
+================================ */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.header-area .top-header .main-menu ul li a{padding: 10px 10px;}
+	.header-area .top-header .header-socialicon ul li a i {padding: 14px 9px 10px;}
+	#pancakeitem-slider .slidermiddle-img {margin: 0 9px 0 -16px;}
+	.sandwich-area .sandwich-bigimg img{height: 500px;}
+	.pancakes-area .pancake-middleround{left: 37.5%;}
+	.foodmenu-item .menuitem-img img{height: 260px;}
+}
+
+
+/*=================================
+	Tablet Layout:  768px
+================================ */
+@media only screen and (min-width: 768px) and (max-width: 991.99px){
+	h2{font-size: 32px;}
+	.header-area .main-menu ul::after{left: 95%;}
+	.cakes-area .cakes-contnet {margin: 20px auto 10px;}
+	.cakes-area .cakes-cheftitle {margin: 22px 0;}
+	.cakes-area .cakeschef-beforearray{padding-left: 45px;}
+	.cakes-area .cakeschef-afterarray{padding-right: 50px;}
+	.cakes-area .cakes-imgaes{padding-top: 35px;}
+	.cakes-area .cakes-lastname{width: 100%;}
+	.cakes-area .cakes-firstname{width: 100%;}
+	.cakes-area .cakes-imgaes .cakesimgs-title{top: 53%;}
+	.pancakes-area .pancakeready-duration{width: 25%; padding: 15px 25px;}
+	.pancakes-area .pancakes-details{padding-bottom: 10px;}
+	.pancakes-area .pancakes-details .pancakes-content{margin-bottom: 10px}
+	.pancakes-area .pancakes-img-details{width: 92%; margin-left: 25px;}
+	.pancakes-area #pancakeitem-slider .slider-img {margin-left: -14px;}
+	.pancakes-area #pancakeitem-slider .slider-img img{height: 70px; width: 70px}
+	.pancakes-area #pancakeitem-slider .slidermiddle-img {margin: 0 10px 0 -10px;}
+	.pancakes-area .pancake-middleround{left: 36.5%;}
+	.breakfast-area .established-ulineficon{margin-bottom: 45px}
+	.breakfast-area .breakfastdetails-content{margin: 20px 0;}
+	.breakfast-area .breakfast-detailsbox::before{border-bottom: 30px solid #343746;}
+	.sandwich-area .sandwich-singleitem{margin-bottom: 35px;}
+	.sandwich-area .sandwich-bigimg img{height: 460px;}
+	.sandwichsidebar-firstitem,
+	.sandwichsidebar-seconditem,
+	.sandwichsidebar-thirditem{padding: 30px 40px 15px 40px}
+	.footer-area .footerright-menu ul li a,
+	.footer-area .footerleft-menu ul li a{padding: 6px 12px}
+	.footer-area .footer-logo a{padding-top: 5px;}
+	.blog-page .post-thumb img{height: auto;}
+	.main-sidebar .widget.popular-food .widget-content a img{height: 65px;}
+	.main-sidebar .widget a img{height: 50px;}
+	.foodmenu-item .menuitem-img img{height: 180px;}
+}
+
+
+/*=================================
+	Mobile Layout:  320px
+================================ */
+@media only screen and (max-width: 767.99px){
+	h2{font-size: 30px;}
+	.header-area{padding-bottom: 110px;}
+	.header-area .main-menu ul::after{left: 91%;}
+	.header-area .hero-area .hero-title{margin-top: 85px;}
+	.header-area .hero-area .hero-title h1{font-size: 60px;}
+	.cakes-area .cakes-firstname,
+	.cakes-area .cakes-lastname{margin: auto;}
+	.cakes-area .cakes-chefimage {margin: 15px 0;}
+	.cakes-area .cakes-imgaes img{height: 290px;}
+	.cakes-area .cakes-imgaes .cakes-img3 {margin-bottom: 15px;}
+	.cakes-area .cakes-leftdetails{ margin-bottom: 30px;}
+	.pancakes-area .pancakes-img-details{margin-left: auto; margin-right: auto;}
+	.pancakes-area .pancakeready-duration{width: initial; padding: 15px 20px 0; right: -36px;}
+	.pancakes-area .pancakeready-time.text-center span{font-size: 50px;}
+	.pancakes-area .pancakeready-minute p{margin-top: -15px}
+	.pancakes-area .pancakes-starts{top: 20%; z-index: 1;}
+	.pancakes-area .pancakes-details{width: 100%; margin: auto;}
+	.pancakes-area .pancakes-img{position: relative}
+	.pancakes-area .pancake-middleround{left: 42%; top: 50.5%;}
+	.pancakes-area .pancakes-details .pancakes-content{margin: 30px 0;}
+	.pancakes-area .pancakes-details{height: 400px;}
+	.pancakes-area #pancakeitem-slider{margin-top: 50px;}
+	.pancakes-area #pancakeitem-slider .slider-img img{height: 70px; width: 70px}
+	.breakfast-area .breakfast-detailsbox{margin: 15px auto 0;}
+	.breakfast-area .breakfast-detailsbox::before{border-bottom: 30px solid #30323E;}
+	.sandwich-area .sandwich-bigimg img { height: 400px;}
+	.sandwich-area .sandwichimg-sidebar{top: -15px;}
+	.sandwichsidebar-firstitem, 
+	.sandwichsidebar-seconditem, 
+	.sandwichsidebar-thirditem {padding: 30px 25px 15px 25px;}
+	.sandwich-area .sandwichimg-sidebar .sanditem-time span{font-size: 35px;}
+	.sandwich-area .sandwich-items { margin-top: 40px; }
+	.footer-area .footer-logo {margin: 20px 0 30px;}
+	.blog-page .main-content{margin-right: 0;}
+	.blog-page .post-thumb img{height: auto;}
+	.main-sidebar .widget .widget-title h3{font-size: 25px;}
+	.previous_next-post{margin-bottom: 50px;}
+	.foodmenu-item .menuitem-img img{height: 200px;}
+	.breakfast-menuarea .col-md-4:nth-child(1) .foodmenu-item,
+	.breakfast-menuarea .col-md-4:nth-child(2) .foodmenu-item { margin-bottom: 50px;}
+	.lunch-menuarea .col-md-4:nth-child(1) .foodmenu-item,
+	.lunch-menuarea .col-md-4:nth-child(2) .foodmenu-item { margin-bottom: 50px;}
+	.dinner-menuarea .col-md-4:nth-child(1) .foodmenu-item,
+	.dinner-menuarea .col-md-4:nth-child(2) .foodmenu-item { margin-bottom: 50px;}
+	.main-sidebar .widget a img{height: 100px; width: 160px;}
+	.post-pagination{margin-bottom: 30px;}
+}
+
+
+/*=================================
+	Wide Mobile Layout: 480px
+================================ */
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+	.header-area .main-menu ul::after{left: 93%;}
+	.sandwich-area .sandwich-bigimg img { height: 460px;}
+	.sandwich-area .sandwichimg-sidebar{top: -20px;}
+	.sandwichsidebar-firstitem, 
+	.sandwichsidebar-seconditem, 
+	.sandwichsidebar-thirditem {padding: 30px 40px 15px 40px;}
+	.sandwich-area .sandwichimg-sidebar .sanditem-time span{font-size: 50px;}
+}
+
+
+/*=======================================
+	Custom Layout For: 580px
+====================================== */
+@media only screen and (max-width: 580px){
+	.pancakes-area #pancakeitem-slider .carousel-item .col-md-4.col-sm-4{width: 30%;}
+	.pancakes-area #pancakeitem-slider .pancakeslider-next{margin-right: -30px}
+	.pancakes-area #pancakeitem-slider .pancakeslider-prev{margin-left: -30px}
+	.pancakes-area #pancakeitem-slider .slider-img img{height: 60px;width: 60px;}
+	.pancakes-area #pancakeitem-slider {margin-top: 70px;}
+	.breakfast-menuarea .foodmenu-item,
+	.lunch-menuarea .foodmenu-item,
+	.dinner-menuarea .foodmenu-item{text-align: center;}
+	.foodmenu-item .menuitem-img a{width: 85%;}
+	.foodmenu-item .menuitem-img a img{height: 250px;}
+	.hrpastyreservation-form .col{flex-basis: 100%;}
+	.hrpastyreservation-form .hrname input#fullname {margin-bottom: 12px;}
+	.hrpastyreservation-form .hrdate-time .col:nth-child(2),
+	.hrpastyreservation-form .hrdate-time .col:nth-child(3){flex-basis: 0%;}
+	.hrpastyreservation-form textarea{height: 130px;}
+	.hrpastyreservation-form .hrname span.wpcf7-not-valid-tip {margin-top: -10px;}
+}
+@media only screen and (max-width: 440px){
+	.header-area{padding-top: 50px;}
+	.pancakes-area .pancakes-details{padding: 20px}
+	.pancakes-area #pancakeitem-slider {margin-top: 60px;}
+	.sandwich-area .sandwich-imgbox .sandwichrecipe-button { margin-bottom: 20px; }
+	.sandwich-area .sandwich-imgbox .sandwichrecipe-button a {bottom: -103px; left: 50%; font-size: 12px; padding: 10px 12px; transform: translate(-50%, -50%);
+
+}
+@media only screen and (max-width: 370px){
+	.pancakes-area #pancakeitem-slider .carousel-item {margin-left: -10px;}
+	.foodmenu-item .menuitem-img a img{height: 210px;}
+}

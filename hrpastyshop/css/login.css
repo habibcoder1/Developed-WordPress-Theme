@@ -1,0 +1,135 @@
+/* Login Stylesheet */
+body.login{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+body.login #login{
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Proxima-Nova';
+}
+body.login #login h1 a{
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+body.login #login a:active,
+body.login #login a:hover,
+body.login #login a:focus{
+    color: #000;
+    box-shadow: none;
+}
+body.login #login form{
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 5px 20px 8px;
+    margin-top: 10px;
+}
+body.login #login form input[type="text"],
+body.login #login form input[type="password"]{
+    border: 1px solid #ccc;
+    border-left: 4px solid var(--loginPrimary);
+    outline: none;
+}
+body.login #login form input[type="text"]:focus,
+body.login #login form input[type="password"]:focus{
+    border: 1px solid #ccc;
+    border-left: 4px solid var(--loginPrimary);
+    box-shadow: none;
+}
+body.login #login form input[type=checkbox], 
+body.login #login form input[type=radio]{
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+body.login #login form input[type="submit"]{
+    background: var(--loginPrimary);
+    border: none;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: .4s;
+    color: #fff;
+}
+body.login #login form input[type="submit"]:hover{
+    background-color: var(--loginSecondary);
+    color: #000;
+}
+body.login #login form input[type="submit"]:active{
+    border: none;
+    background-color: var(--loginPrimary);
+}
+body.login #login .button.wp-hide-pw:focus {
+   border-color: var(--loginSecondary);
+   box-shadow: 0 0 0 1px var(--loginSecondary);
+}
+.wp-core-ui .button, 
+.wp-core-ui .button-secondary{
+  color: var(--loginPrimary);
+}
+.wp-core-ui .button:hover, 
+.wp-core-ui .button-secondary:hover{
+  color: var(--loginSecondary);
+}
+body.login #login #backtoblog,
+body.login #login #nav{
+    margin: 10px 0 0;
+    text-align: center;
+}
+body.login #login #nav{
+    margin-top: 5px;
+}
+body.login #login #backtoblog a,
+body.login #login #nav a{
+    color: #000;
+    transition: .3s;
+}
+body.login #login .privacy-policy-page-link a:hover,
+body.login #login #nav a:hover {
+    color: #3c3939;
+}
+body.login #login #backtoblog a{
+    background-color: var(--loginPrimary);
+    color: #fff;
+    padding: 3px 10px 6px;
+    font-size: 15px;
+}
+body.login #login #backtoblog a:hover{
+    background-color: var(--loginSecondary);
+    color: #000;
+}
+body.login #login #nav a{
+    font-size: 15px;
+}
+body.login #login .privacy-policy-page-link{
+    text-align: right;
+    margin: 1.5em -1.5em 0;
+}
+body.login #login .privacy-policy-page-link a{
+    font-size: 15px;
+    color: #000;
+    transition: .4s;
+}
+body.login #login #login_error{
+    border-left-color: var(--loginPrimary);
+    border-radius: 3px;
+    width: 78%;
+    margin: auto;
+}
+body.login #login #login-message{
+    border-left: 4px solid var(--loginPrimary);
+    border-radius: 4px;
+    width: 78%;
+    margin: auto;
+}
