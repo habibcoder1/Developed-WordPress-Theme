@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* ================================
+Theme Name:  Insurance Seba
+Theme URI:   http://habibcoder.com/insuranceseba
+Author:      HabibCoder
+Author URI:  http://habibcoder.com
+Version:     1.0.0
+License:     GNU General Public License v-2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:        insurance seba, insurance, blog, habibcoder, blog website, insurance website
+Description: This is a insurance website. You can make any type of Insurance Website and Blog website.
+Text Domain: insurance-seba
+================================ */
+
+/* all styles will load from assets/css directory */
+
+/* tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.isebaButton{
+    @apply bg-white text-[#DD3627] text-[14px] text-center uppercase font-bold border-[#DD3627] border-[1px] block rounded-md sm:p-1 md:px-5 md:py-2 px-5 py-2 hover:text-[#333] hover:border-[#333] transition-all;
+}

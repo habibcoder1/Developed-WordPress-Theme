@@ -1,0 +1,83 @@
+// Utilities Style
+
+// colors variable
+$isebaPrimaryColor: #DD3627;
+$isebaSecondaryColor: #EEEEEE;
+$isebaWhiteColor: #fff;
+$isebaBlackColor: #333;
+
+// font variable
+$isebaLatoFont: 'Lato', sans-serif;
+
+$isebaLightWeight: 300;
+$isebaRegularWeight: 400;
+$isebaBoldWeight: 700;
+$isebaBlackWeight: 900;
+
+// custom css/typhography
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: $isebaBlackColor;
+    font-family: $isebaLatoFont;
+    background-color: $isebaWhiteColor;
+}
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    color: $isebaBlackColor;
+}
+h1{
+    font-size: 40px;
+    font-weight: $isebaBlackWeight;
+}
+h2{
+    font-size: 35px;
+    font-weight: $isebaBlackWeight;
+}
+h3{
+    font-size: 30px;
+    font-weight: $isebaBoldWeight;
+}
+h4{
+    font-size: 26px;
+    font-weight: $isebaBoldWeight;
+}
+h5{
+    font-size: 24px;
+    font-weight: $isebaBoldWeight;
+}
+h6{
+    font-size: 22px;
+    font-weight: $isebaBoldWeight;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+a:hover,
+a:focus{
+    text-decoration: none;
+    box-shadow: none;
+}
+p{
+    font-size: 14px;
+    color: $isebaBlackColor;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 0;
+}
+hr{
+    border-top-width: 2px;
+    border-color: #ccc;
+}

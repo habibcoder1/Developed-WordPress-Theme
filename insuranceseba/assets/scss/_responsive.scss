@@ -1,0 +1,89 @@
+// responsive design
+@media only screen and (min-width: 640px) and (max-width: 1280px){
+    .body-section .body-right .right_section-three .wdget-form form button{
+        padding: 4px 22px;
+        margin: 5px auto;
+    }
+    .body-section .body-right .right_section-three ul.social-link li{
+        margin: 0;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 640px){
+    .container{
+        width: 98%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .body-section .body-main_content .body-regular_message article{
+        display: block;
+    }
+    .body-section .body-main_content .post-details ul.social-link{
+        text-align: center;
+    }
+}
+
+// responsive for contact form
+@media (min-width:315px) and (max-width:430px){
+    .contact-form input#tel{
+        width: 64%;
+    }   
+}
+@media (min-width:1024px) and (max-width:1280px){
+    .contact-form input[type=tel]{
+        width: 55%;
+    }  
+    .contact-form form .form-right input.wpcf7-form-control.wpcf7-text.file-url{
+        width: 55%;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .contact-form input[type=tel]{
+        width: 79%;
+    }  
+    .contact-form form .form-right input.wpcf7-form-control.wpcf7-text.file-url{
+        width: 79%;
+    }
+}
+@media (min-width:620px) and (max-width:768px){
+    .contact-form input[type=tel]{
+        width: 81%;
+    }  
+    .contact-form form .form-right input.wpcf7-form-control.wpcf7-text.file-url{
+        width: 81%;
+    }
+}
+@media (min-width:550px) and (max-width:620px){
+    .contact-form input[type=tel]{
+        width: 78%;
+    }  
+    .contact-form form .form-right input.wpcf7-form-control.wpcf7-text.file-url{
+        width: 78%;
+    }
+}
+@media (min-width:492px) and (max-width:550px){
+    .contact-form input[type=tel]{
+        width: 75%;
+    }  
+    .contact-form form .form-right input.wpcf7-form-control.wpcf7-text.file-url{
+        width: 75%;
+    }
+}
+@media (min-width:400px) and (max-width:492px){
+    .contact-form input[type=tel]{
+        width: 68%;
+    }  
+    .contact-form form .form-right input.wpcf7-form-control.wpcf7-text.file-url{
+        width: 68%;
+    }
+}
+@media (max-width:370px){
+    .contact-form input[type=tel]{
+        width: 100%;
+    }  
+    .contact-form form .form-right input.wpcf7-form-control.wpcf7-text.file-url{
+        display: none;
+    }
+}
