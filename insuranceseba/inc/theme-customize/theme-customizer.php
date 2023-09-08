@@ -54,7 +54,7 @@ function iseba_theme_customizer($wp_customize){
 		'setting'     => 'iseba_theader_content',
 	));
 	function sanitize_top_header_text($input){
-	        return sanitize_textarea_field($input);
+	        return sanitize_text_field($input);
 	    };
 
 	// header social //
