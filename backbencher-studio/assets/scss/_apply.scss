@@ -1,0 +1,192 @@
+// apply form scss
+
+.bbsapply-form{
+    padding: 50px 0;
+    color: $bbsWhiteColor;
+    .form-title{
+        h3{
+            color: $bbsWhiteColor;
+            font-size: 38px;
+            font-weight: 500;
+            letter-spacing: -1.47px;
+            margin-bottom: 35px;
+        }
+    }
+    form{
+        input{
+            font-size: 20px;
+            color: $bbsWhiteColor;
+            background-color: transparent;
+            display: block;
+            width: 100%;
+            padding: 5px 0;
+            margin-bottom: 15px;
+            @media(max-width: 992px){
+                margin-bottom: 0;
+            }
+        }
+        textarea{
+            font-size: 17px;
+            display: block;
+            background-color: transparent;
+            color: $bbsWhiteColor;
+            border: 1px solid #8E8EA0;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+            width: 100%;
+            resize: none;
+            padding: 5px;
+            height: 350px;
+            @media(max-width: 1400px){
+                height: 280px;
+            }
+            @media(max-width: 992px){
+                height: 200px;
+            }
+            @media(max-width: 768px){
+                height: 150px;
+            }
+            
+        }
+        ::placeholder{
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: -0.7px;
+        }
+        .message-label{
+            margin-bottom: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: -0.7px;
+        }
+        .wpcf7-not-valid-tip{
+            font-size: 20px;
+        }
+        .resume-submitbtn{
+            p{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 25px;
+                span.wpcf7-spinner {
+                    display: none;
+                }
+                @media(max-width: 992px){
+                    display: block;
+                    text-align: center;
+                }
+            }
+            @media(max-width: 768px){
+                flex-direction: column;
+                margin-top: 25px;
+            }
+            label.attach-resume{
+                font-size: 20px;
+                font-weight: 700;
+                border-bottom: none;
+                border-bottom: none;
+                padding: 18px 30px;
+                border: 1px solid #8E8EA0;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: .4s ease all;
+                -webkit-transition: .4s ease all;
+                -moz-transition: .4s ease all;
+                -ms-transition: .4s ease all;
+                -o-transition: .4s ease all;
+                @media(max-width: 992px){
+                    margin-bottom: 20px;
+                    
+                }
+            }
+            input[type="file"]{
+                display: none;
+            }
+            input[type="submit"]{
+                text-align: center;
+                background-color: $bbsSecondaryColor;
+                color: $bbsBlackColor;
+                border-radius: 50px;
+                width: 200px;
+                font-size: 28px;
+                font-style: normal;
+                text-shadow: none;
+                text-transform: capitalize;
+                margin-bottom: 0;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: -0.7px;
+                padding: 18px 30px;
+                transition: .4s ease all;
+                -webkit-transition: .4s ease all;
+                -moz-transition: .4s ease all;
+                -ms-transition: .4s ease all;
+                -o-transition: .4s ease all;
+                &:hover{
+                    background-color: $bbsPrimaryColor;   
+                    color: $bbsWhiteColor;
+                }
+                @media(max-width: 992px){
+                    font-size: 25px;
+                    margin: auto;
+                }
+            }
+            
+        }
+        // contact form 7
+        .wpcf7-response-output{
+            color: $bbsPrimaryColor;
+            border-radius: 20px;
+            background: #0A090F;
+            padding: 45px 44px;
+            font-size: 32px;
+            font-weight: 500;
+            letter-spacing: -1.12px;
+            border: none;
+            position: relative;
+            padding-left: 80px;
+            @media(max-width: 992px){
+                font-size: 25px;
+                padding: 25px;
+                letter-spacing: -0.5px;
+                padding-left: 76px;
+            }
+            &::after{
+                content: "";
+                display: block;
+                clear: both;
+                position: absolute;
+                top: 52px;
+                left: 0;
+                background-image: url(https://backbencher.studio/wp-content/uploads/2023/12/information-square.png);
+                background-position: center;
+                height: 32px;
+                width: 32px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-left: 35px;
+                @media(max-width: 992px){
+                    top: 26px;
+                    
+                }
+            }
+        }
+        p{
+            span.wpcf7-not-valid-tip{
+                text-align: right;
+            }
+        }
+    }
+
+    .wpcf7 form.invalid .wpcf7-response-output, 
+    .wpcf7 form.unaccepted .wpcf7-response-output, 
+    .wpcf7 form.payment-required .wpcf7-response-output{
+        color: red;
+        &::after{
+            background-image: url(https://backbencher.studio/wp-content/uploads/2023/12/information-square1.png);
+        }
+    }
+}

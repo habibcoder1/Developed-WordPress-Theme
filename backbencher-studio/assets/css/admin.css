@@ -1,0 +1,442 @@
+/* all admin panel css */
+
+/* style for post banner image */
+#bbbs-post-bannerimg-metabox .default_post_banner-img img{
+    height: 190px;
+    width: 500px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: 158px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#bbbs-post-bannerimg-metabox .default_post_banner-img .add_remove-btn{
+    margin-left: 315px;
+    margin-bottom: 20px;
+}
+#bbbs-post-bannerimg-metabox .default_post_banner-img p{
+    margin-left: 315px;
+}
+#bbbs-post-bannerimg-metabox .default_post_banner-img .add_remove-btn button{
+    padding: 6px 15px 8px;
+    text-transform: capitalize;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 5px 5px 0;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: .4s ease all;
+    -webkit-transition: .4s ease all;
+    -moz-transition: .4s ease all;
+    -ms-transition: .4s ease all;
+    -o-transition: .4s ease all;
+}
+#bbbs-post-bannerimg-metabox .default_post_banner-img .add_remove-btn button:hover{
+    background-color: #50B800;
+    color: #fff;
+}
+
+
+/* style for projects */
+.bbs_service-metabox .service_banner-img p{
+    margin-left: 315px;
+}
+.bbs_service-metabox .service_banner-img img{
+    height: 190px;
+    width: 500px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: 158px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.bbs_service-metabox .service_banner-img .add_remove-btn{
+    margin-left: 315px;
+    margin-bottom: 20px;
+}
+.bbs_service_problemsolution-metabox label,
+.bbs_service-metabox label {
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.bbs_service-metabox input#service-contactbtnllink {
+    margin-left: 6px;
+    width: 500px;
+}
+.bbs_service_problemsolution-metabox input#service-problemitemtitle,
+.bbs_service-metabox input#discuss-projectlink {
+    margin-left: 7px;
+    width: 500px;
+}
+.bbs_service-metabox textarea{
+    height: 150px;
+    width: 500px;
+    display: block;
+    margin-left: 156px;
+}
+.bbs_service-metabox label{
+    margin-right: 15px;
+}
+
+/* service problem, solutions */
+.bbs_service-metabox .service_banner-img .add_remove-btn button,
+.bbs_service_problemsolution-metabox button{
+    padding: 6px 15px 8px;
+    text-transform: capitalize;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 5px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: .4s ease all;
+    -webkit-transition: .4s ease all;
+    -moz-transition: .4s ease all;
+    -ms-transition: .4s ease all;
+    -o-transition: .4s ease all;
+}
+.bbs_service-metabox .service_banner-img .add_remove-btn button{
+    margin-left: auto;
+}
+.bbs_service-metabox .service_banner-img .add_remove-btn button:hover,
+.bbs_service_problemsolution-metabox button:hover{
+    background-color: #50B800;
+    color: #fff;
+}
+.bbs_service_problemsolution-metabox .service-solutionitem,
+.bbs_service_problemsolution-metabox .service-problemitem{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.bbs_service_problemsolution-metabox input{
+    margin-left: 45px;
+    margin-bottom: 15px;
+    width: 500px;
+}
+.bbs_service_problemsolution-metabox textarea{
+    height: 80px;
+    width: 500px;
+    display: block;
+    margin-left: 156px;
+}
+.bbs_service_problemsolution-metabox span.remove-solutionitems.remove-icon,
+.bbs_service_problemsolution-metabox span.remove-problemitems.remove-icon{
+    color: red;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 6px;
+    display: inline-block;
+}
+.bbs_service_problemsolution-metabox .servicesolutionid,
+.bbs_service_problemsolution-metabox .serviceproblemid {
+    margin-bottom: 20px;
+}
+.bbs_service_problemsolution-metabox .problem_solution-img label{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+}   
+.bbs_service_problemsolution-metabox .problem_solution-img img{
+<<<<<<< HEAD
+    height: 250px;
+    width: 480px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: 200px;
+}   
+.bbs_service_problemsolution-metabox .problem_solution-img p{
+    margin-left: 330px;
+}   
+.bbs_service_problemsolution-metabox .problem_solution-img .add_remove-btn{
+    margin-left: 330px;
+=======
+    height: 150px;
+    width: 280px;
+    border: 1px solid #ccc;
+    display: block;
+    margin: auto;
+}   
+.bbs_service_problemsolution-metabox .problem_solution-img .add_remove-btn{
+    text-align: center;
+>>>>>>> c188289d4da0ed3c0fb0acf2056a762e472684f7
+}
+.bbs_service_problemsolution-metabox .problem_solution-img .add_remove-btn button{
+    display: inline-block;
+    margin-left: auto;
+}
+<<<<<<< HEAD
+#bbs_brandingtypographyprocess-metabox .add_remove-btn{
+    margin-left: 250px;
+}
+
+#bbs_brandingtypographyprocess-metabox .typography-content textarea,
+#bbs_brandingtypographyprocess-metabox .workprocess-content textarea,
+#bbs_brandingtypographyprocess-metabox .branding-content textarea{
+    margin-bottom: 20px;
+    margin-left: 156px;
+    width: 500px;
+    height: 100px;
+    display: block;
+}
+#bbs_brandingtypographyprocess-metabox .workprocess-content,
+#bbs_brandingtypographyprocess-metabox .typography-content{
+    margin-top: 30px;
+}
+#bbs_brandingtypographyprocess-metabox .branding_typography_workprocess img{
+    width: 300px;
+    height: 180px;
+    margin-left: 210px;
+    display: block;
+    border: 1px solid #ccc;
+}
+#bbs_brandingtypographyprocess-metabox .branding_typography_workprocess .workprocess-image img{
+    height: 120px;
+}
+#bbs_brandingtypographyprocess-metabox .branding_typography_workprocess .branding-image p,
+#bbs_brandingtypographyprocess-metabox .branding_typography_workprocess .typography-image p{
+    margin-left: 250px;
+}
+#bbs_brandingtypographyprocess-metabox .add_remove-btn button{
+    display: inline-block;
+    padding: 6px 15px 8px;
+    text-transform: capitalize;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: .4s ease all;
+    -webkit-transition: .4s ease all;
+    -moz-transition: .4s ease all;
+    -ms-transition: .4s ease all;
+    -o-transition: .4s ease all;
+}
+#bbs_brandingtypographyprocess-metabox .add_remove-btn button:hover{
+    background-color: #50B800;
+    color: #fff;
+}
+=======
+
+>>>>>>> c188289d4da0ed3c0fb0acf2056a762e472684f7
+
+@media(max-width: 1400px){
+    .bbs_service_problemsolution-metabox button{
+        margin-left: 80%;
+    }
+    .bbs_service_problemsolution-metabox .problem_solution-img img{
+        height: 150px;
+        width: 380px;
+    } 
+}
+
+@media(max-width: 1200px){
+    #bbs_brandingtypographyprocess-metabox .branding_typography_workprocess .branding-image p,
+    #bbs_brandingtypographyprocess-metabox .branding_typography_workprocess .typography-image p,
+    #bbs_brandingtypographyprocess-metabox .add_remove-btn,
+    .bbs_service_problemsolution-metabox .problem_solution-img .add_remove-btn,
+    .bbs_service_problemsolution-metabox .problem_solution-img p,
+    .bbs_service-metabox .service_banner-img .add_remove-btn,
+    .bbs_service-metabox .service_banner-img p{
+        margin-left: 25%;
+    }
+    
+    #bbs_brandingtypographyprocess-metabox .branding_typography_workprocess img,
+    #bbs_brandingtypographyprocess-metabox .typography-content textarea, #bbs_brandingtypographyprocess-metabox .workprocess-content textarea, #bbs_brandingtypographyprocess-metabox .branding-content textarea,
+    .bbs_service_problemsolution-metabox .problem_solution-img img,
+    .bbs_service_problemsolution-metabox input,
+    .bbs_service_problemsolution-metabox textarea,
+    .bbs_service_problemsolution-metabox input,
+    .bbs_service_problemsolution-metabox input#service-problemitemtitle, 
+    .bbs_service-metabox input#discuss-projectlink,
+    .bbs_service-metabox textarea,
+    .bbs_service-metabox input#service-contactbtnllink,
+    .bbs_service-metabox .service_banner-img img{
+        width: 80%;
+        margin-left: 13px;
+    }
+    .bbs_service-metabox .service_banner-img img,
+    .bbs_service_problemsolution-metabox .problem_solution-img img,
+    #bbs_brandingtypographyprocess-metabox .branding_typography_workprocess .workprocess-image img,
+    #bbs_brandingtypographyprocess-metabox .branding_typography_workprocess img{
+        height: auto;
+    }
+    div#bbs_brandingtypographyprocess-metabox label,
+    .bbs_service-metabox label{
+        margin-bottom: 6px;
+        display: block;
+    }
+    .bbs_service_problemsolution-metabox button{
+        display: block;
+        margin-right: 8%;
+        margin-left: auto;
+    }
+}
+
+
+/* style for job board */
+#bbs_job_board_metabox .postbox-header h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details label{
+    font-size: 15px;
+    font-weight: 500;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details textarea,
+#bbs_job_board_metabox .bbs_jobboard_metabox_details input{
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin-left: 13px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details input#jobaddress{
+    width: 70%;
+    margin-left: 60px;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details input#jobsalary-range{
+    margin-left: 48px;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details input#jobdeadline{
+    margin-left: 76px;
+    cursor: pointer;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details textarea#jobabout-company{
+    display: block;
+    width: 100%;
+    height: 140px;
+    margin-top: 8px;
+    margin-left: 0;
+}
+#bbs_job_board_metabox #wp-jobwhat-role-wrap input,
+#bbs_job_board_metabox #wp-jobabout-company-wrap input {
+    padding: 0 10px ;
+    margin-left: 0 ;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details textarea#jobwhat-role{
+    display: block;
+    width: 100%;
+    height: 140px;
+    margin-top: 8px;
+    margin-left: 0;
+}
+
+#bbs_job_board_metabox .bbs_jobboard_metabox_details input#jobneedbegood_0 {
+    margin-left: 73px;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details .job-benefit p,
+#bbs_job_board_metabox .bbs_jobboard_metabox_details .job-allskills p,
+#bbs_job_board_metabox .bbs_jobboard_metabox_details .needtobegood p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details input:focus{
+    box-shadow: none;
+    border: 1px solid #ccc;
+    outline: none;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details input::placeholder{
+    font-style: italic;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details p{
+    margin-bottom: 20px;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details button#add-jobbenefit,
+#bbs_job_board_metabox .bbs_jobboard_metabox_details button#add-jobskill,
+#bbs_job_board_metabox .bbs_jobboard_metabox_details button#add-needbegood {
+    padding: 6px 15px 8px;
+    text-transform: capitalize;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-top: 5px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: .4s ease all;
+    -webkit-transition: .4s ease all;
+    -moz-transition: .4s ease all;
+    -ms-transition: .4s ease all;
+    -o-transition: .4s ease all;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details button#add-jobbenefit:hover,
+#bbs_job_board_metabox .bbs_jobboard_metabox_details button#add-jobskill:hover,
+#bbs_job_board_metabox .bbs_jobboard_metabox_details button#add-needbegood:hover{
+    background-color: #50B800;
+    color: #fff;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details .jobskillid input{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 67%;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details .needbegoodid input{
+    margin-left: 70px;
+    margin-bottom: 10px;
+    width: 67%;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details .jobbenefitid input{
+    margin-left: 80px;
+    margin-bottom: 10px;
+    width: 67%;
+}
+#bbs_job_board_metabox .bbs_jobboard_metabox_details .jobbenefitid span.remove-benefit,
+#bbs_job_board_metabox .bbs_jobboard_metabox_details .jobskillid span.remove-skill,
+#bbs_job_board_metabox .bbs_jobboard_metabox_details .needbegoodid span.remove-needbegood{
+    color: red;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 6px;
+}
+@media(max-width: 1200px){
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details label{
+        margin-bottom: 6px;
+        display: block;
+    }
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details textarea, 
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details input,
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details input#jobneedbegood_0,
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details .jobbenefitid input,
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details .jobskillid input,
+    #bbs_job_board_metabox #needbegood-container input,
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details textarea#jobwhat-role,
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details textarea#jobabout-company,
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details input#jobdeadline,
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details input#jobsalary-range,
+    #bbs_job_board_metabox .bbs_jobboard_metabox_details input#jobaddress{
+        width: 80%;
+        margin-left: 13px;
+    }
+}
+
+.tableofcontent-noticeadmin{
+    width: 40%;
+    margin: -12px auto !important;
+    border-left-color: #b80029;
+}
+@media only screen and (max-width: 1400px){
+    .tableofcontent-noticeadmin{
+        width: 60%;
+        margin: 0 auto !important;
+    }
+}
+
+.tableofcontent-noticeadmin p{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0 !important;
+}
